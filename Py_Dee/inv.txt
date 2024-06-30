@@ -1,0 +1,296 @@
+what are fixtures in pytest? what are markers in pytest? what is the robotframework architecture? How do you write a test case in robotframework? how do you generate reports in robotframework
+
+
+Upvote
+
+
+
+
+1 Answer
+
+
+Share
+
+Add answer anonymously...
+
+.
+7mo
+
+Answers to questions related to pytest and robotframework
+
+Fixtures in pytest are functions that provide a fixed baseline for tests to run on
+
+Markers in pytest are used to mark tests with metadata such as priority or category
+
+Robotframework architecture consists of test libraries, test cases, and keywords
+
+Test cases in robotframework are written in a tabular format using keywords and arguments
+
+Reports in robotframework can be generated using the built-in report generation tool or by using external libraries
+
+
+
+
+
+
+
+
+
+Write a program to check if a string or integer is palindrome or not? write the output For a Given multiple inheritance program? write the output for a given method overriding program?
+
+
+
+
+
+
+
+
+
+
+
+OOPS Concepts : what is abstraction? what is encapsulation? How do you achieve abstraction in python? what are private and protected access specifiers ?
+
+
+1 Upvote
+
+
+
+
+1 Answer
+
+
+Share
+
+Add answer anonymously...
+
+.
+7mo
+
+Abstraction and encapsulation are OOPS concepts. Achieving abstraction in Python is through abstract classes and interfaces. Private and protected access specifiers restrict access to class members.
+
+Abstraction is the process of hiding implementation details and showing only the necessary information to the user.
+
+Encapsulation is the process of wrapping data and methods into a single unit and restricting access to them from outside the unit.
+
+In Python, abstraction is achieved through abstract classes and interfaces.
+
+Private access specifier restricts access to class members within the class only.
+
+Protected access specifier restricts access to class members within the class and its subclasses.
+
+Example of private access specifier: __variable
+
+Example of protected access specifier: _variable
+
+
+
+generators, iterators, lambda functions, lists, and tuples.
+
+Generators are functions that return an iterator and can be paused and resumed. They save memory and improve performance.
+
+Iterators are objects that can be iterated upon and return data one at a time. They are less memory-efficient than generators.
+
+Lambda functions are anonymous functions that can take any number of arguments and return a single expression. Example: lambda x: x*2
+
+Lists and tuples are both used to store collections of data, but lists are mutable while tuples are immutable.
+
+Lists use square brackets [] to enclose elements, while tuples use parentheses ().
+
+
+
+what is the difference between testing and quality assurance?
+
+
+Upvote
+
+
+
+
+1 Answer
+
+
+Share
+
+Add answer anonymously...
+
+.
+7mo
+
+Testing is the process of identifying defects while quality assurance is the process of preventing defects.
+
+Testing is a reactive process while quality assurance is a proactive process.
+
+Testing is focused on finding defects while quality assurance is focused on preventing defects.
+
+Testing is a subset of quality assurance.
+
+Quality assurance involves the entire software development process while testing is limited to the testing phase.
+
+Examples of quality assurance activities include code reviews, process audits, and standards enforcement while examples of testing activities include functional testing, performance testing, and security testing.
+
+
+
+
+What is implicit wait and explicit wait ? write a xpath for a given element on a page? what are the different exceptions in selenium? How will you handle multiple windows in Selenium? what is stale element exception and how do you handle it?
+
+
+Upvote
+
+
+
+
+1 Answer
+
+
+Share
+
+Add answer anonymously...
+
+.
+7mo
+
+Explaining implicit and explicit waits, handling multiple windows and exceptions in Selenium
+
+Implicit wait: Wait for a certain amount of time before throwing an exception if the element is not found
+
+Explicit wait: Wait for a certain condition to be met before proceeding with the next step
+
+XPath example: //input[@id='username']
+
+Exceptions in Selenium: NoSuchElementException, TimeoutException, ElementNotVisibleException, StaleElementReferenceException
+
+Handling multiple windows: Switch to the desired window using window handles
+
+Stale element exception: Occurs when an element is no longer attached to the DOM, handle it by refreshing the page or finding the element again
+
+
+
+
+
+
+
+
+To give all rwx permissions to a file, use chmod 777 filename. To search for specific text in a file, use grep 'text' filename.
+
+To give all rwx permissions to a file, use the chmod command followed by 777 and the filename.
+
+Example: chmod 777 myfile.txt
+
+To search for specific text in a file, use the grep command followed by the text and the filename.
+
+Example: grep 'hello' myfile.txt
+
+
+
+
+Questions related to Git, software model, Docker, and CI/CD for Senior QA Automation Engineer position.
+
+get fetch retrieves changes from the remote repository without merging them into the local branch
+
+git pull retrieves changes from the remote repository and merges them into the local branch
+
+git stash temporarily saves changes that are not ready to be committed
+
+git rebase integrates changes from one branch into another by reapplying each commit on top of the destination branch
+
+branching flow in the project depends on the project's requirements and team's preferences
+
+software model used depends on the project's requirements and team's preferences
+
+day to day activities include writing and executing test cases, reporting and verifying bugs, collaborating with developers and other team members
+
+sprint cycle depends on the project's requirements and team's preferences
+
+Docker is a containerization platform that allows developers to package and deploy applications in a portable and scalable way
+
+CI/CD stands for Continuous Integration/Continuous Deployment and is a set of practices and tools used to automate the software delivery process
+
+
+
+
+
+Smoke testing, sanity testing and regression testing are types of software testing. Bug life cycle is the process of a bug from discovery to resolution. Traceability matrix is a document that links requirements to test cases.
+
+Smoke testing is a quick test to check if the basic functionalities of the software are working after a new build.
+
+Sanity testing is a quick test to check if the major functionalities of the software are working after a small change.
+
+Regression testing is a comprehensive test to check if the existing functionalities of the software are working after a major change.
+
+Bug life cycle includes stages like new, open, assigned, fixed, verified, and closed.
+
+Traceability matrix is used to ensure that all the requirements are covered by test cases and vice versa.
+
+For example, if a requirement states that the login page should have a forgot password link, the traceability matrix will show which test case covers this requirement.
+
+
+
+
+Testing is the process of identifying defects while quality assurance is the process of preventing defects.
+
+Testing is a reactive process while quality assurance is a proactive process.
+
+Testing is focused on finding defects while quality assurance is focused on preventing defects.
+
+Testing is a subset of quality assurance.
+
+Quality assurance involves the entire software development process while testing is limited to the testing phase.
+
+Examples of quality assurance activities include code reviews, process audits, and standards enforcement while examples of testing activities include functional testing, performance testing, and security testing.
+
+
+
+
+
+Smoke testing is a quick and shallow test to ensure the basic functionality of an application. Regression testing is a comprehensive test to ensure that changes made to the application do not affect its existing functionality.
+
+Smoke testing is performed after a new build is received and before regression testing.
+
+Smoke testing is a subset of regression testing.
+
+Regression testing is performed after changes are made to the application.
+
+Regression testing ensures that the existing functionality of the application is not affected by the changes.
+
+Regression testing is time-consuming and requires a comprehensive test suite.
+
+
+
+CI/CD is a software development approach that emphasizes continuous integration, testing, and delivery.
+
+CI/CD stands for Continuous Integration/Continuous Delivery
+
+It involves automating the software development process to ensure that code changes are frequently and consistently tested and deployed
+
+Xtreme Programming (XP) is an Agile software development methodology that emphasizes teamwork, communication, and feedback
+
+Kanban is a Lean manufacturing technique that emphasizes visualizing work, limiting work in progress, and continuous improvement
+
+CI/CD can be implemented using XP and Kanban principles to ensure that software is developed and delivered quickly and efficiently
+
+
+
+
+
+I have learned the importance of thorough testing, communication, and continuous improvement from my failures.
+
+Thorough testing: I have learned that skipping or rushing through testing can lead to overlooked bugs and issues.
+
+Communication: I have learned the importance of clear and effective communication with team members and stakeholders to ensure everyone is on the same page and expectations are aligned.
+
+Continuous improvement: I have learned that failures provide valuable learning opportunities and should be used to identify areas for improvement in processes, tools, and skills.
+
+Example: In a previous project, I encountered a failure where a critical bug was missed during testing due to inadequate test coverage. This failure taught me the importance of thorough testing and the need to constantly review and enhance test cases to ensure comprehensive coverage.
+
+Example: Another failure I experienced was a miscommunication with the development team regarding the expected behavior of a feature. This taught me the significance of clear and concise communication to avoid misunderstandings and prevent issues from arising.
+
+Example: One failure I encountered was a regression bug that slipped through the testing phase and made it to production. This failure highlighted the need for continuous improvement in our testing processes and the implementation of better regression testing strategies.
+
+
+
+
+NAND In SSD how it work. how it hold the voltage?
+how request will come from host how it will be process by host layer / protocol layer/ application layer of SCSI.
+how error handling will be done in Firmware of SSD ?
+N to N flow of SSD firmware
+How PCIe /SAS work?
